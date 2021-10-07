@@ -6,4 +6,4 @@ pip install slowloris
 
 slowloris
 
-slowloris -s 100000 -p 192.168.0.1 -v
+slowloris -s 100000 -p 80 192.168.0.1 -v
